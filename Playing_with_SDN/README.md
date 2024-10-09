@@ -49,7 +49,7 @@ To run the controllers with the Mininet topologies provided in the assignment, u
 - **Running Topo File:**
   ```bash
   sudo python3 <topo.py>
-
+-**Now Open new terminal**
 - **Running a Ryu App:**  
   ```bash
   ryu-manager --observe-links <app.py>
