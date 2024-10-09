@@ -46,7 +46,10 @@ Implements **Shortest Path Routing** based on link capacities, while maintaining
 ## Running the Controllers
 
 To run the controllers with the Mininet topologies provided in the assignment, use the following commands:
+- **Running Topo File:**
+  ```bash
+  sudo python3 <topo.py>
 
 - **Running a Ryu App:**  
   ```bash
-  ryu-manager <app.py>
+  ryu-manager --observe-links <app.py>
