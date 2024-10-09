@@ -1,18 +1,12 @@
 # Assignment 3: Introduction to SDN (Software Defined Networking)
 
 **Course:** COL 334/672, Diwali'24  
-**Deadline:** October 6, 2024  
 
 ## Overview
 
 This project explores key concepts in Software Defined Networking (SDN), specifically focusing on OpenFlow-like APIs. The assignment is divided into three main parts, with an optional bonus part. Each part involves implementing different network control policies using the Ryu controller and simulating network behavior with Mininet.
 
-## Contents
 
-- **Part 1:** Hub and Learning Switch (25%)
-- **Part 2:** Spanning Tree (40%)
-- **Part 3:** Shortest Path Routing (35%)
-- **Bonus (Optional):** Congestion-aware Shortest Path Routing (20%)
 
 ## Part 1: Hub and Learning Switch
 
@@ -38,12 +32,6 @@ Implements **Shortest Path Routing** based on link capacities, while maintaining
 ### Files:
 - `p3_spr.py`: Shortest Path Routing implementation.
 
-## Bonus: Congestion-aware Shortest Path Routing
-
-Implements **Congestion-aware Shortest Path Routing** that dynamically adjusts routing based on current link utilization, either at the flow or packet level.
-
-### Files:
-- `p4_ca_spr.py`: Congestion-aware Shortest Path Routing implementation.
 
 ## Setup and Installation
 
